@@ -1,0 +1,12 @@
+Permissions are always set on folders, never on items.
+
+There are four levels of permissions that can be set for a folder in the library:
+
+Access - The user or group is allowed to execute information links that are placed in the folder, but is not allowed to browse the contents or open analysis files.
+
+Browse + Access - The user or group is allowed to access and browse the folder contents. The user can open and use items found in such folders, but not save or modify them. Note that subfolders can only be shown if the user has "Browse + Access" for the parent folder as well as for the subfolder itself. Folders for which the user does not have "Browse + Access" will not show up even if they are inside a folder he/she has access to.
+
+Browse + Access + Modify - The user or group is allowed to browse and access the contents of the folder and also modify items or save new items. The user can also create new subfolders.
+
+Full Control - The user or group is allowed to access and browse the folder, modify and save items, and also change permissions for the folder and its contents.
+
