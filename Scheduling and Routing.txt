@@ -1,0 +1,38 @@
+Scheduling and Routing:
+- There is a schedule named cache hold present in the system. but it only loads new data at the start of the schedule.	
+
+- When we schedule a dashboard, the server creates a cache in the RAM.
+- As a prerequisite we need to check the whether, wherever the analysis file is there independent elements and database should have an access to schedule account system.
+- Without scheduling account permission to that folder, the dashboard will get failed.
+- If Dahboard is not cached, then user must have access to Exp file as well as dependent elements
+
+Rule:
+Analysis Rule: If u r using analysis tool, it has to be opened in particular web player
+User rule: User rule means a user will be routed to a particular web player.
+Group Rule: Group rule means a user in that group will be routed to a particular web player.
+
+Resource Pool:
+- U need resource pool to route the user to particular web player.
+- Any webplayer can be part of 1 resource pool only.
+- U need to choose the required resource pool according to requirements
+
+Priority: Multiple caches and jobs are scheduled so priority is the order for the execution of these jobs 0-top,10-least
+
+1. Daily triggering:
+	Repeat all days,
+	Update every few mins as requested
+
+2. One day schedule:
+	For triggering:
+	Choose 1 day Update every 24 hrs
+	For holding purpose:
+	Choose whole week
+	Only load data at start time of schedule
+	
+3. External data src:
+	For holding purpose:
+	Choose whole week
+	Only load data at start time of schedule
+	
+
+
