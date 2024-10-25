@@ -1,0 +1,47 @@
+
+
+In monitoring and Diagnostics
+
+1.1 Overview:
+
+In this we can see how many servers are available and node manager and their status also what is the CPU utilization and available memory, 
+which ports are used for that server configuration , what is the platform and the lohg configuration whether it is a standard or debug
+In that particular instance how many analysis are open and how many people are using that particular instance 
+we can see that which particular instance is part of which resource pool.
+
+1.2 Server Diagnostics:
+
+we can see here the system information which has been configured on the server.
+here we can see : name, currently on which version it is running on i.e server version,CPU usage,System CPU usage,allocated memory to this server,
+total free memory, uptime: when did the server was last restarted and from how much time it is been up.
+*by clicking on view data sources -< which will give us the info about the data sources and the driver versions -< we can see that in our server their are two data sources
+and their are many more options in that
+*Available JDBC drivers: teir are some data source templates which server supports that is postgreSQL
+here we need to keep in mind that the data source template and driver version.
+11.2 is the current JDBC driver version we are using for the SQL server.
+
+Two types of drivers: JDBC and ODBC
+some of the datasources are supporting JDBC and some ODBC, here the lib server is having only JDBC drivers.
+
+* what is the diff between JDBC and ODBC : If we want to introduce an ODBC driver datasource then we have tom intall in node manager and those data source which are supported in the JDBC we can do it in lib servers
+by filling the template in the configuration file.
+
+1.3 Instances:
+
+In intasnce tab we can see all the instances -< two web
+* Difference between web player Instance and web player service:
+Web player service is container which will provide the infrastucture to web player instances and 
+web player instance will process and execute the module, which is holding in a web player instance
+
+**No, see you can summarize like list of the users, whoever is attached to that instance, it will be listed.
+**If it is cached, it will highlight it is cached and what is the table that dashboard size it will mention everything will be updated here,whether it is cached or not..
+**which other users are accessing that details.Also we can see and the list of and also list of instances connected to that particular node manager, it will display,
+
+**So for that we can go to routing analysis.
+
+*Difference between Routing analysis and routing instances 
+In analysis we can see which that particular instance attached to which instance and how many people are using that analysis 
+as we come to routing analysis in that particular instance how many people are using and which dashboards are opening by using that instance 
+
+*Library Administration:
+
