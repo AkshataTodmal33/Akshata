@@ -1,0 +1,14 @@
+git clone https://github.com/AkshataTodmal33/Akshata.git
+cd Akshata  (change directory)
+git status
+git add Library.txt
+git status
+git commit -m ""
+git push origin master
+
+how to create new branch
+git branch Demo
+git checkout Demo
+
+
+
