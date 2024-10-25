@@ -1,4 +1,4 @@
-git clone https://github.com/AkshataTodmal33/Akshata.git
+.git clone https://github.com/AkshataTodmal33/Akshata.git
 cd Akshata  (change directory)
 git status
 git add Library.txt
